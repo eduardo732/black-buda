@@ -1,7 +1,8 @@
 import unittest
 import datetime
 import pytz
-from timestamp_calculator import calcular_timestamp
+from utils import calcular_timestamp 
+
 
 class TestCalcularTimestamp(unittest.TestCase):
     def test_calculo_timestamp(self):
