@@ -28,11 +28,11 @@ En comparación con el mismo día del año anterior, ¿cuál fue el aumento porc
 Considerando que la comisión normal corresponde a un 0.8% ¿Cuánto dinero (en CLP) se dejó de ganar debido a la liberación de comisiones durante el BlackBuda? (truncar en 2 decimales)
 
 Para solucionar estos desafíos decidí dividir la lógica en distintos archivos:
--src/utils : Este archivo se creó con la finalidad de obtener la fecha solicitada en timestamp milisegundos.
--src/test_timestamp : Decidí asegurarme que el timestamp fuese correcto, por lo que le apliqué test a la lógica.
--src/request: Aquí dejé la lógica para obtener la información que necesitaba
--src/exercise: Aquí separé la lógica dependiendo del desafío que necesitaba
--src/index: Aquí es donde se escriben las respuestas de los desafíos por lo que debes correr este script para saberlo!
+-  src/utils : Este archivo se creó con la finalidad de obtener la fecha solicitada en timestamp milisegundos.
+-  src/test_timestamp : Decidí asegurarme que el timestamp fuese correcto, por lo que le apliqué test a la lógica.
+-  src/request: Aquí dejé la lógica para obtener la información que necesitaba
+-  src/exercise: Aquí separé la lógica dependiendo del desafío que necesitaba
+-  src/index: Aquí es donde se escriben las respuestas de los desafíos por lo que debes correr este script para saberlo!
 
 ## Requisitos
 Python 3.9 o superior
